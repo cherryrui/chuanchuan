@@ -1,0 +1,107 @@
+@import "../../themes.scss";
+.quotation_title{
+	display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    background: $color-grey;
+  height: 40px;
+  line-height: 40px;
+
+}
+.title_info{
+	padding-left: 20px;
+    text-align: left;
+    width: 320px;
+}
+.title_num{
+	text-align: center;
+	width: 110px;
+}
+.title_sale{
+	text-align: center;
+	width: 170px;
+}
+.title_agent{
+	text-align: center;
+	width: 140px;
+}
+.title_profit{
+	text-align: center;
+	width: 120px;
+}
+.quotation_item{
+	border: 1px solid $border-color;
+	line-height: 100px;
+  margin-top: 10px;
+}
+.quotation_item_title{
+	display: flex;
+    justify-content: space-between;
+    height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+   background: $color-light-blue;
+}
+.quotation_item_body{
+  display: flex;
+  border-bottom: 1px solid $border-color;
+  .item_info{
+      @extend .title_info;
+      display: flex;
+      align-items: center;
+      border-right: 1px solid $border-color;
+
+          img{
+              width: 70px;
+              height: 70px;
+            margin-right: 10px;
+            border: 1px solid $border-color;
+          }
+
+  }
+  .item_num{
+      @extend .title_num;
+
+      border-right: 1px solid $border-color;
+  }
+  .item_sale{
+      @extend .title_sale;
+      color: $color-cheng;
+
+      border-right: 1px solid $border-color;
+  }
+  .item_agent{
+      @extend .title_agent;
+      color: $color-cheng;
+
+      border-right: 1px solid $border-color;
+  }
+  .item_profit{
+      @extend .title_profit;
+
+      color:$color-cheng;
+  }
+}
+.quotation_item_footer{
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+ line-height: 70px;
+  button{
+      height: 40px;
+      margin-right: 20px
+  }
+  .item_icon{
+      margin-right: 10px;
+      cursor: pointer;
+      span{
+          color: $theme-color;
+      }
+  }
+}
+.footer{
+  text-align: right;
+  margin-top: 20px;
+}

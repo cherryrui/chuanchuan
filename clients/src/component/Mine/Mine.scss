@@ -1,0 +1,64 @@
+@import '../../themes.scss';
+.body{
+  display: flex;
+}
+.menu{
+  flex-shrink: 0;
+  background: $color-grey;
+  padding: 10px 10px 0px 20px;
+
+  font-size: 14px;
+  width: 220px;
+  margin-right: 20px;
+  ul{
+    background: $color-grey;
+  }
+  i{
+    color: $color-red;
+  }
+  .menu_title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  .menu_title_show{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: default;
+  }
+  .menu_title:hover{
+      color: $theme-color;
+      text-decoration: underline;
+  }
+  .menu_active{
+    @extend .menu_title;
+    color: $theme-color;
+  }
+  .item{
+    color: $font-color;
+    padding: 10px 0;
+    cursor: pointer;
+    span:hover{
+      color: $theme-color;
+      text-decoration: underline;
+    }
+  }
+  .active{
+    padding: 10px 0;
+    color: $theme-color;
+    cursor: pointer;
+  }
+}
+.title{}
+.content{
+  flex-grow: 1;
+}
+.child_title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}

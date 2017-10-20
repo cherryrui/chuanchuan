@@ -1,0 +1,33 @@
+.login_modal{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(55, 55, 55, 0.6);
+}
+.content{
+
+  border-radius: 4px;
+  box-shadow: 0 0 10px #8a96ad;
+  margin: 100px auto;
+  background: white;
+  padding: 10px;
+}
+.modal_title{
+    text-align: right;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.title{
+    flex-grow: 1;
+    text-align:left;
+    font-size: 16px;
+}

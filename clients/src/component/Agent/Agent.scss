@@ -1,0 +1,68 @@
+@import '../../themes.scss';
+
+.prompt{
+  background: $color-light-blue;
+  padding:20px;
+  margin-bottom: 20px;
+  .spot_text{
+    display: flex;
+
+    line-height: 30px;
+    .spot{
+      font-size: 6px;
+      padding-right: 5px;
+
+    }
+
+  }
+}
+.agent_form{
+  padding-top:20px ;
+  padding-bottom: 10px;
+
+.retrun{
+  background-color: $button-green;
+  border-color: $button-green;
+  margin-right: 20px;
+  width: 150px;
+
+  border-radius: 2px;
+
+}
+.retrun:hover{
+  background-color: $button-green-active;
+  border-color: $button-green-active;
+}
+.submit{
+  border-radius: 2px;
+  width: 150px;
+
+}
+.agent_input{
+   width: 400px  !important;
+   border-radius: 2px !important;
+  height: 36px !important;
+  input{
+    width: 400px !important;
+    border-radius: 2px !important;
+    height: 36px !important;
+  }
+
+
+}
+  .agent_checkbox{
+    margin-right: 40px !important;
+
+  }
+  .credentials{
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 20px;
+  }
+  .input_left{
+    height: 14px !important;
+    line-height: 14 !important;
+
+    padding-bottom: 24px !important;
+  }
+}

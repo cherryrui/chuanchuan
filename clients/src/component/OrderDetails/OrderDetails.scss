@@ -1,0 +1,153 @@
+@import '../../themes.scss';
+.span{padding-right: 5px;}
+.title{
+  color: $theme-color;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.personal_information{
+  font-size: 16px;
+  .item{
+
+    padding-bottom: 20px;
+
+    .item_cont{
+      line-height: 30px;
+     display: flex;
+     .install_money{
+      color: $color-red;
+     }
+      .item_name{
+        font-size: 14px;
+        font-weight: 600;
+        padding-right: 10px;
+        color: $color-deep-grey;
+
+      }
+      .status{
+        color: $color-orange;
+      }
+      .pay_day{
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .item_line{
+        width: 30px;
+        text-align: center;
+      }
+      .item_pay{
+        padding-left: 15px;
+        display: flex;
+        color: $color-red;
+        font-weight: 500;
+
+        .pay_nom{
+          display: inline-block;
+          padding-left:0px;
+
+        }
+      }
+    }
+     }
+
+
+
+  }
+.table_col{
+  text-align: center !important;
+  font-size: 14px;
+}
+.product_info{
+  width: 370px;
+}
+
+.table_price{
+  color: $color-red;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+.order_sum {
+  background: #eeeff3;
+  padding: 10px;
+  text-align: right;
+  margin: 20px 0;
+  p{
+    padding: 5px 0;
+    display: inline-block;
+    width: 100px;
+
+  }
+  .order_sum_orange{
+    color: $color-red;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.pay_footer{
+padding-top:20px;
+ display: flex;
+  justify-content:flex-end;
+  height: 50px;
+  line-height: 50px;
+  .preview{
+    color: $theme-color;
+    margin-right:20px;
+
+  }
+  .button_order{
+    margin-left:10px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height:50px ;
+  }
+}
+.detail_stage_list{
+  display: flex;
+  margin: 10px 0;
+  color: $border-color;
+  align-items: center;
+  padding-right: 20px;
+  
+}
+.detail_stage_list_active{
+  @extend .detail_stage_list;
+  color: $font-color;
+}
+.stage_item_title{
+    width: 140px;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 20px;
+  }
+  .stage_item_title_active{
+    @extend .stage_item_title;
+    background: $color-orange;
+    color: white;
+  }
+  .stage_item_body{
+    flex-grow: 1;
+  }
+  .stage_item_body_font{
+      padding: 0px 10px 20px;
+  }
+  .stage_item_body_font_active{
+    padding: 0px 10px 20px;
+    color: $color-orange;
+
+  }
+  .stage_item_right{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .stage_item_total{
+    font-size: 16px;
+    font-weight: bold;
+    color: $color-orange;
+    padding-left: 10px;
+  }

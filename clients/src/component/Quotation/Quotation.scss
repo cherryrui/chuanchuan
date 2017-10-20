@@ -1,0 +1,167 @@
+@import "../../themes";
+
+.qutation{
+  .qutation_title{
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 20px;
+  }
+  tbody[class="ant-table-tbody"]{
+    font-size: 12px !important;
+  }
+  thead[class="ant-table-thead"]{
+  }
+  th{
+    background:$back-ground-shallow-grey !important;
+    color: $font-color !important;
+    border-right: none !important;
+  }
+  td{
+    padding: 20px 20px !important;
+  }
+  .table_product{
+    width: 430px;
+  }
+  .table_col{
+    text-align: center !important;
+    font-size: 12px;
+  }
+  .table_num{
+
+  }
+  .order_sum{
+    padding: 20px 10px;
+    background: $back-ground-shallow-grey;
+    font-size:14px ;
+    .sum_item{
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 10px;
+      align-items: center;
+    }
+    .sum_right{
+      width: 150px;
+      margin-left: 10px;
+
+    }
+    .sum_price{
+      width: 150px;
+      margin-left: 10px;
+      color: $color-red;
+    }
+    .sum_profit{
+      width: 150px;
+      margin-left: 10px;
+      color: $color-green;
+    }
+  }
+  .infomation{
+    display: flex;
+    margin-top: 20px;
+    background: $back-ground-shallow-grey;
+    font-size: 14px;
+    font-weight: bold;
+    height:36px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .right{
+    line-height: 36px;
+    padding-left:20px;
+    width: 50%;
+  }
+  .left{
+    line-height: 36px;
+    padding-left:20px;
+    width: 50%;
+    border-right: 1px solid $border-color;
+  }
+  .info_write{
+    display: flex;
+    border: 1px solid $border-color;
+    border-top: none;
+    margin-bottom: 10px;
+  }
+  .item{
+    display: flex;
+    padding-bottom:20px ;
+    textarea[class="ant-input"]{
+      height:60px;
+      border-radius: 0px;
+    }
+    label[class="ant-checkbox-wrapper"]{
+      margin-right: 32px;
+      font-size: 12px !important;
+    }
+    .title{
+      width: 103px;
+      text-align: right;
+      margin: auto 10px auto 0px;
+      flex-shrink: 0;
+
+    }
+    input{
+      width: 300px;
+      border-radius: 0px;
+      height: 36px;
+    }
+  }
+  .item_one{
+    display: flex;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    .title{
+      width: 103px;
+      text-align: right;
+      margin: auto 10px auto 0px;
+      flex-shrink: 0;
+    }
+    input{
+      width: 300px;
+      border-radius: 0px;
+    }
+  }
+  .padd_20{
+    padding: 10px 20px;
+    label[class="ant-radio-wrapper ant-radio-wrapper-checked"]{
+      padding-right: 32px;
+    }
+    label[class="ant-radio-wrapper"]{
+      padding-right: 32px;
+    }
+  }
+  .padd_20_w{
+    padding: 10px 20px;
+
+    label[class="ant-radio-wrapper ant-radio-wrapper-checked"]{
+      padding-right: 32px;
+    }
+    label[class="ant-radio-wrapper"]{
+      padding-right: 32px;
+    }
+  }
+  .remark{
+    padding: 10px 0px 20px 0px;
+    .title{
+      margin: 0px 10px 0px 20px;
+    }
+  }
+  .export{
+    border: 1px solid $border-color;
+    padding: 20px;
+    label[class="ant-steps-title"]{
+      margin-right: 32px;
+    }
+  }
+  .footer {
+    text-align: right;
+    margin-top: 20px;
+    p {
+      margin-left: 10px;
+    }
+
+  }
+
+}
+.quotation_modal{
+  width:1100px !important;
+}

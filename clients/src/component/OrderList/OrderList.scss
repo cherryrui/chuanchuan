@@ -1,0 +1,112 @@
+@import '../../themes.scss';
+.button{
+  font-size: 14px;
+}
+.card_container{
+  border: 1px solid $border-color;
+  table{
+    border-collapse: collapse;
+  }
+  td{
+    border-bottom: 1px dashed #e9e9e9 !important;
+    border-collapse: collapse!important;
+  }
+}
+.tabtar{
+  img{
+    width: 20px;
+    height: 20px;
+  }
+  sup{
+    height: 15px;
+    border-radius: 50%;
+    min-width: 15px;
+    line-height: 15px;
+    padding: 0 4px;
+    font-size: 12px;
+  }
+}
+
+.table_product{
+    display: flex;
+    align-items: center;
+    img{
+        flex-shrink: 0;
+        border: 1px solid $border-color;
+        width:70px;
+        height:70px;
+        margin-right: 10px;
+    }
+    .info{
+        .product_title{
+            font-size: 16px;
+            font-weight: 500;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            word-break: break-all;
+            color: #636363;
+        }
+        .table_payment_full{
+          background: $color-blue;
+          color: white;
+          width: 80px;
+          text-align: center;
+          height: 18px;
+          line-height: 18px;
+          font-size: 12px;
+          border-radius: 4px;
+          margin-top: 12px;
+        }
+        .table_payment{
+            color: $font-orange;
+            span{
+                @extend .table_payment_full;
+                background: $color-cheng;
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.table_price{
+
+  color: $color-red;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.table_time{
+
+  font-size: 14px;
+  color:$border-color;
+}
+.table_operation{
+  font-size: 18px;
+  .operation_text{
+    display: block;
+    color: $theme-color;
+    padding-bottom: 5px;
+    font-weight: 500;
+    i{
+      font-size: 20px;
+      color: $font-color;
+    }
+  }
+}
+.table_status{
+  img{
+    width: 20px;
+  }
+}
+.table_col{
+  text-align: center !important;
+  font-size: 14px;
+}
+
+.Pagination{
+  padding-top:20px;
+  display: flex;
+  justify-content: flex-end;
+}

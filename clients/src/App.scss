@@ -1,0 +1,199 @@
+@import "./themes";
+.index{
+  height: 100%;
+  font-size: 14px;
+}
+.head{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+  height: 40px;
+  sup{
+    left: 24px;
+  }
+ .item{
+   margin-left: 35px;
+   color: #ffffff;
+   cursor: pointer;
+ }
+  .item2{
+    margin-right: 35px;
+    color: #ffffff;
+    float: left;
+    cursor: pointer;
+  }
+  .item1{
+    margin-right: 0px;
+    color: #ffffff;
+    float: left;
+  }
+  .modalcontent{
+    text-align: center;
+  }
+  .language{
+    font-size: 14px;
+    div[class="ant-select-selection
+            ant-select-selection--single"]{
+        border: none !important;
+        color: white;
+        border-radius: 0;
+        background: transparent;
+    }
+  }
+}
+
+.seat{
+  height: 114px;
+}
+.body{
+  min-height: 600px;
+  width: 1100px;
+  padding-top: 130px;
+  background: white;
+  margin: 0 auto;
+}
+.footer_first{
+  background: $theme-color;
+}
+.foot{
+  padding: 38px 0px;
+  margin: 0px auto;
+  display: flex;
+  width: 1100px;
+  .item{
+    flex-grow: 1;
+    padding-left: 50px;
+    width: 25%;
+    flex-shrink: 0;
+  }
+  .title{
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 10px
+  }
+  .info{
+    font-size: 14px;
+    color: #e6e6e6;
+    padding: 5px 0px;
+  }
+}
+.bottom{
+  text-align: center;
+  color: #ffffff;
+  background: #122337;
+  font-size: 14px;
+  padding: 10px;
+}
+.navigate{
+  padding: 10px 0;
+  color: $theme-color;
+  span{
+    color: $theme-color;
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+.logo{
+  padding: 20px;
+  color: $theme-color;
+  font-weight: 400;
+}
+.fixed_title{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    background: #122337;
+}
+%button{
+    padding: 10px 20px;
+    color: white !important;
+    border-radius: 2px !important;
+    display: inline-block;
+    cursor: pointer;
+}
+.button_theme{
+  @extend %button;
+    background-color: $button-blue !important;
+    border-color: $button-blue !important;
+  border-radius: 2px !important;
+
+}
+.quit_modal{
+   padding: 10px;
+}
+.quit_button{
+  padding: 10px;
+  text-align: center;
+  button{
+    margin: 0px 10px;
+  }
+}
+.button_theme:hover{
+    background-color: $button-blue-active !important;
+    border-color: $button-blue-active !important;
+    @extend %button;
+}
+.button_radius{
+  @extend %button;
+  width: 200px  !important;
+  border-radius: 30px  !important;
+}
+.button_radius:hover{
+  @extend %button;
+  width: 200px  !important;
+  border-radius: 30px  !important;
+  background-color: $button-blue-active !important;
+}
+.button_green{
+    @extend %button;
+    background-color: $button-green !important;
+    border-color: $button-green !important;
+}
+.button_green:hover{
+    background-color: $button-green-active !important;
+    border-color: $button-green-active !important;
+}
+.button_orange{
+    @extend %button;
+    background-color: $button-orange !important;
+    border-color: $button-orange !important;
+}
+.button_orange:hover{
+    background-color: $button-orange-active !important;
+    border-color: $button-orange-active !important;
+}
+.upload{
+  display: flex;
+  .uploader_div{
+    margin-right: 20px;
+    div[class="ant-upload-list-item ant-upload-list-item-done"]{
+        width: 150px;
+        height: 110px;
+    }
+    div[class="ant-upload ant-upload-select ant-upload-select-picture-card"]{
+      width: 150px;
+      height: 110px;
+    }
+    div[class="ant-upload-list-item ant-upload-list-item-uploading ant-upload-animate-inline-enter ant-upload-animate-inline-enter-active"]{
+      width: 150px;
+      height: 110px;
+    }
+    div[class="ant-upload-list-item ant-upload-list-item-uploading"]{
+      width: 150px;
+      height: 110px;
+    }
+    .upload_icon{
+      i{
+        font-size: 40px;
+        margin-top: 14px;
+        display: inline-flex;
+      }
+    }
+  }
+  .side{
+    text-align: center;
+  }
+}

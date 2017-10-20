@@ -1,0 +1,79 @@
+
+@import "../../themes";
+.main_title{
+   background: $theme-color;
+   font-weight: bold;
+   padding: 10px 20px;
+   color: white;
+}
+.basic_body{
+  display: flex;
+  .basic_left{
+    padding: 45px;
+  }
+  .basic_right{
+    padding: 10px 45px;
+    flex-grow: 1;
+    border-left: 1px solid $border-color;
+  }
+}
+.basic_upload{
+  span[class="ant-avatar avatar ant-avatar-circle ant-avatar-image"]{
+    width: 110px;
+    height: 110px;
+    background: white;
+  }
+  img{
+    width: 110px;
+    height: 110px;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+.info{
+    width: 100%;
+    display: flex;
+    height:50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: $color-deep-grey;
+    font-weight:400;
+    .title{
+      display: block;
+      width: 30%;
+      text-align: right;
+    }
+    .text{
+      display: block;
+      text-align: left;
+      padding-left: 10px;
+      height:50px;
+      line-height: 50px;
+      width: 60%; 
+  }
+}
+.button_modifye{
+  margin-left: 30%;
+  margin-top: 10px;
+}
+.auth_body{
+  padding: 30px 20px;
+}
+.button_certification{
+    background-color:$color-green;
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.text_certification{
+    color:$color-orange ;
+    padding-left: 10px;
+    height:50px;
+    line-height: 50px;
+}
+.go_certification{
+    color: $color-orange;
+}

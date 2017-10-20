@@ -1,0 +1,183 @@
+@import "../../themes";
+.body{
+  background: white;
+  
+}
+.quotation_title{
+  text-align: center;
+  .quotation_info{
+    color: $color-orange;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  i{
+    font-size: 30px;
+  }
+
+}
+.quotation_pdf{
+  background: white;
+  padding: 36px;
+  font-size: 14px;
+  thead[class="ant-table-thead"]{
+    font-weight: bold !important;
+  }
+  td{
+    padding: 20px 20px !important;
+  }
+.table_product{
+  width: 350px;
+  display: flex;
+  img{
+    border: 1px solid $border-color;
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+  }
+  .info{
+      padding-left: 10px;
+      height: 100px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+      width: 100%;
+      .name{
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      word-break: break-all;
+      text-overflow: ellipsis;
+      height: 20px;
+      }
+  }
+}
+.table_col{
+  text-align: center !important;
+  font-size: 14px;
+}
+ .table_price{
+   color:$color-red ;
+   font-weight: bold;
+ }
+.table_num{
+  margin: 10px;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid $theme-color;
+
+  .logo{
+    padding-bottom: 10px;
+    height: 115px;
+    width: 150px;
+    font-size: 69px;
+    font-size: 56px;
+    line-height: 146px;
+    font-weight: bold;
+    color: $theme-color;
+    img{
+      height: 115px;
+      width: 150px;
+    }
+  }
+  .title_item{
+    padding-bottom: 10px;
+    text-align: right;
+  }
+}
+.infomation{
+  display: flex;
+  margin-top: 10px;
+  background: $color-grey;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+
+}
+.right{
+  padding-left: 20px;
+  width: 50%;
+}
+.left{
+  padding-left: 20px;
+  width: 50%;
+  border-right: 1px solid $border-color;
+  padding-bottom: 10px;
+}
+.info_write{
+  display: flex;
+  border: 1px solid $border-color;
+  border-top:none;
+  margin-bottom: 20px;
+
+}
+.item{
+  display: flex;
+  padding-top: 10px;
+  .info_title{
+
+
+    margin: auto 5px auto 0px;
+    flex-shrink: 0;
+  }
+}
+.quotation_title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+.quotation_info{
+  padding-top: 10px;
+}
+.quotation_create{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.order_sum{
+  padding-top:10px;
+  border: 1px solid $border-color;
+  .sum_item{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding:0px 10px 10px 0px;
+  }
+  .sum_right{
+    width: 80px;
+    margin-left: 10px;
+    color:$color-red ;
+    font-weight: bold;
+  }
+  .sum_right_num{
+    width: 80px;
+    margin-left: 10px;
+
+  }
+  input{
+    margin-top: -5px;
+  }
+}
+}
+.quo_footer{
+    display: flex;
+    justify-content: space-between;
+    .quo_footer_right{
+      margin: auto 0;
+      img{
+        width: 200px;
+      }
+    }
+    .quo_left{
+      margin: auto 0;
+    }
+}

@@ -1,0 +1,42 @@
+@import '../../themes.scss';
+
+.submit_success{
+
+  .success{
+    display:flex;
+    color: $color-orange;
+    justify-content: center;
+    font-size:16px ;
+    font-weight: 700;
+    padding-top: 50px;
+
+    padding-bottom:50px;
+  }
+  p{
+    height: 30px;
+    line-height: 30px;
+
+    .smile{
+      height: 30px;
+      line-height: 30px;
+      padding-right: 10px;
+      display: block;
+    }
+  }
+  .link {
+    display: block;
+    color: $button-blue-active;
+    height: 30px;
+    line-height: 30px;
+
+  }
+  .button_retrun{
+    text-align: center;
+
+    .retrun{
+      width: 120px;
+      border-radius: 2px;
+      margin-top: 20px;
+    }
+  }
+}

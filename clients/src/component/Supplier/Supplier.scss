@@ -1,0 +1,127 @@
+@import '../../themes.scss';
+
+.prompt{
+  background: $color-light-blue;
+  padding:20px;
+  margin-bottom: 20px;
+  width: 100%;
+
+    .spot_text{
+     display:flex;
+
+      line-height: 30px;
+      .spot{
+        font-size: 6px;
+        padding-right: 5px;
+
+      }
+  }
+
+}
+.basic_category{
+  span[class="ant-cascader-picker"]{
+    width: 400px;
+    margin-right: 20px;
+  }
+}
+.suplier_logo{
+  float: left;
+  div[class="ant-upload-list-item ant-upload-list-item-done"]{
+        width: 150px;
+        height: 110px;
+    }
+    div[class="ant-upload ant-upload-select ant-upload-select-picture-card"]{
+      width: 150px;
+      height: 110px;
+    }
+    div[class="ant-upload-list-item ant-upload-list-item-uploading ant-upload-animate-inline-enter ant-upload-animate-inline-enter-active"]{
+      width: 150px;
+      height: 110px;
+    }
+    div[class="ant-upload-list-item ant-upload-list-item-uploading"]{
+      width: 150px;
+      height: 110px;
+    }
+    .upload_icon{
+      i{
+        font-size: 40px;
+        margin-top: 14px;
+        display: inline-flex;
+      }
+
+    }
+}
+.img_text{
+  margin-top: 65px;
+  p{
+    line-height: 24px;
+    height: 24px;
+  }
+}
+.supplier_form{
+  padding-top:20px ;
+  padding-bottom: 10px;
+
+.retrun{
+  background-color: $button-green;
+  border-color: $button-green;
+  margin-right: 20px;
+  width: 150px;
+
+  border-radius: 2px;
+}
+.retrun:hover{
+  background-color: $button-green-active;
+  border-color: $button-green-active;
+}
+.submit{
+  width: 150px;
+
+  border-radius: 2px;
+}
+  .jiahao{
+    margin-left:10px;
+    border-radius: 2px !important;
+    height: 36px  !important;
+    width: 36px  !important;
+    margin-top: -21px;
+    background: $color-blue;
+    color: #ffffff;
+  }
+.supplier_input{
+  width: 400px  !important;
+  border-radius: 2px !important;
+  height: 36px;
+
+  input{
+    height: 36px !important;
+    border-radius: 2px !important;
+  }
+}
+.supplier_checkbox{
+  margin-right: 40px !important;
+}
+.supplier_textarea{
+  width: 400px !important;
+  border-radius: 2px !important;
+}
+.credentials{
+  height: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+.input_left{
+  height: 14px !important;
+  line-height: 14 !important;
+
+  padding-bottom: 24px !important;
+}
+.item{
+ margin-bottom: 20px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+}
+  .checkbox_bottom{
+    margin-bottom: 10px !important;
+  }
+}

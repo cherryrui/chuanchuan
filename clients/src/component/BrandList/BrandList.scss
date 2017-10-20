@@ -1,0 +1,45 @@
+@import "../../themes";
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+  background: $color-grey;
+  .left{
+    display: flex;
+  }
+  .item{
+    padding: 0 20px;
+    cursor: pointer;
+  }
+  .item_active{
+    @extend .item;
+    color: $theme-color;
+    text-decoration: underline;
+  }
+  .right{
+    display: flex;
+  }
+}
+.brand{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  .item{
+    height: 240px;
+    width: 150px;
+    margin-right: 40px;
+  }
+  .right_item{
+    height: 240px;
+    width: 150px;
+    margin-bottom: 35px;
+    margin-right: none !important;
+  }
+  img{
+    height: 150px;
+  }
+}
+.footer{
+  text-align: right;
+}
